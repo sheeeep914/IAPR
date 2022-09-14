@@ -263,5 +263,3 @@ def load_results(file):
     with open(file ,  'r') as f:
         data = json.load(f)
     return data
-
-
